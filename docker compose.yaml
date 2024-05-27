@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/var/www/html
+    networks:
+      - mon_reseau
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=mon_database
+      - MYSQL_USER=mon_utilisateur
+      - MYSQL_PASSWORD=mon_mot_de_passe
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+    networks:
+      - mon_reseau
+
+  db:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=mon_database
+    networks:
+      - mon_reseau
+
+networks:
+  mon_reseau:

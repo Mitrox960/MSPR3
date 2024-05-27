@@ -1,0 +1,76 @@
+/* Ajoutez ces styles à votre fichier userProfile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center; /* Centrer le texte dans le body */
+    background-color: #F0F0F0; /* Ajout d'une couleur de fond */
+}
+
+header {
+    margin-bottom: 20px;
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+main {
+    margin-bottom: 40px;
+    background-color: white; /* Ajout d'une couleur de fond */
+    padding: 20px; /* Ajout d'un espace intérieur */
+    border-radius: 10px; /* Ajout de coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #388E3C;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+label.info {
+    color: #388E3C;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+label {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #FF0000;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+
+    button:hover {
+        background-color: #388E3C;
+    }

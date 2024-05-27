@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\database",
+    "\\database\\migrations",
+    "\\resources",
+    "\\resources\\views",
+    "\\routes"
+  ],
+  "SelectedNode": "\\database\\migrations\\2024_02_20_205544_create_roles_table.php",
+  "PreviewInSolutionExplorer": false
+}

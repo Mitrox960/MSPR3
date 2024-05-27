@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+    main div input {
+        display: block; /* Afficher les inputs en block pour les empiler verticalement */
+        width: 80%; /* Ajouter une largeur pour centrer les champs */
+        margin: 1% auto; /* Ajouter une marge pour l'aération */
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #4CAF50;
+        background-color: white;
+        border: 2px solid #4CAF50;
+        border-radius: 5px;
+    }
+
+.buttonPostCreateAcccount {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    width: 80%; /* Ajouter une largeur pour centrer le bouton */
+    margin: 1% auto; /* Ajouter une marge pour l'aération */
+}
+
+    .buttonPostCreateAcccount:hover {
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        background-color: #388E3C;
+        border-color: #388E3C;
+    }
+
+/* Ajouter une media query pour les écrans plus larges (supérieurs à 768px) si nécessaire */
+@media (min-width: 769px) {
+    main div input,
+    .buttonPostCreateAcccount {
+        width: auto; /* Réinitialiser la largeur pour les écrans plus larges */
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+    main div input {
+        display: block;
+        width: 80%;
+        margin: 1% auto;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #4CAF50;
+        background-color: white;
+        border: 2px solid #4CAF50;
+        border-radius: 5px;
+    }
+
+#role { /* Ajouter un style pour le bouton de rôle */
+    display: block;
+    width: 80%;
+    margin: 1% auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4CAF50;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.buttonPostCreateAcccount {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    width: 80%;
+    margin: 1% auto;
+}
+
+    .buttonPostCreateAcccount:hover {
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        background-color: #388E3C;
+        border-color: #388E3C;
+    }
+
+#accepter_cgu { /* Ajouter un style pour le bouton "Accepter les CGU" */
+    display: inline-block;
+    margin-top: 10px; /* Ajouter un espace par rapport au bouton précédent */
+}
+
+/* Ajouter une media query pour les écrans plus larges (supérieurs à 768px) si nécessaire */
+@media (min-width: 769px) {
+    main div input,
+    .buttonPostCreateAcccount,
+    #role,
+    #accepter_cgu {
+        width: auto;
+    }
+}
+

@@ -1,0 +1,12 @@
+*{
+    background-color: #388E3C;
+    
+
+}
+header {
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+

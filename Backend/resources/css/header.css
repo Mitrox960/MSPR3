@@ -1,0 +1,34 @@
+* {
+    background-color: #388E3C;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+Réduire
+header.css
+1 Ko
+header {
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    Afficher plus headerHome.css 1 Ko body
+
+{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}

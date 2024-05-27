@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 10%;
+}
+
+    main div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        main div a {
+            display: block;
+            width: 80%; /* Ajouter une largeur pour centrer les boutons */
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+            margin: 2% auto; /* Ajouter une marge pour l'aération */
+        }
+
+            main div a:hover {
+                background-color: #388E3C;
+                border-color: #388E3C;
+            }
+
+}

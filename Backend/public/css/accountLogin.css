@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+    main div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     
+        main div input {
+            display: block;
+            width: 80%;
+            padding: 12px; /* Augmenter la hauteur du bouton */
+            font-size: 16px;
+            font-weight: bold;
+            color: #4CAF50;
+            background-color: white;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            margin: 2% auto; /* Ajouter une marge pour l'aération */
+        }
+.buttonPostCreateAcccount {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    width: 80%;
+    padding: 8px; /* Augmenter la hauteur du bouton */
+    margin: 2% auto; /* Ajouter une marge pour l'aération */
+}
+
+    .buttonPostCreateAcccount:hover {
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        background-color: #388E3C;
+        border-color: #388E3C;
+        padding: 8px; /* Maintenir la même hauteur du bouton en survol */
+    }
+
+
+/* Pour le lien "Créer mon compte" */
+main a {
+    display: block;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+    main a:hover {
+        text-decoration: underline;
+    }

@@ -1,0 +1,47 @@
+main div {
+	display: inline;
+}
+
+main {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+	main div a {
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #fff;
+		background-color: #4CAF50;
+		border: 2px solid #4CAF50;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+		margin: 2%;
+	}
+
+		main div a:hover {
+			background-color: #388E3C;
+			border-color: #388E3C;
+		}
+
+
+@media (max-width: 768px) {
+	main div {
+		display: block;
+	}
+
+	main {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+		main div a {
+			padding: 8px 16px;
+			font-size: 14px;
+			margin: 4% 0;
+		}
+}

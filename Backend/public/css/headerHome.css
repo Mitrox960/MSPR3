@@ -1,0 +1,74 @@
+header {
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+        header div {
+            flex-direction: column;
+            width: 100%;
+        }
+}
+
+.back-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: auto; /* Place le bouton à gauche en repoussant tout vers la droite */
+    header
+
+{
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: auto; /* Place le bouton "Accueil" à gauche */
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+        header div {
+            flex-direction: column;
+            width: 100%;
+        }
+
+    .back-button {
+        margin-right: 0; /* Réinitialise la marge pour la version mobile */
+    }
+}
+
+    font-size: 18px;
+}

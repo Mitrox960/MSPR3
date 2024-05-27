@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center; /* Centrer le texte dans le body */
+    background-color: #F0F0F0; /* Ajout d'une couleur de fond */
+    margin: 0; /* Suppression de la marge par défaut */
+}
+
+
+
+main {
+    text-align: center;
+    margin-top: 5%; /* Réduction de la marge supérieure */
+    margin-bottom: 5%; /* Réduction de la marge inférieure */
+    background-color: white; /* Ajout d'une couleur de fond */
+    padding: 20px; /* Ajout d'un espace intérieur */
+    border-radius: 10px; /* Ajout de coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre */
+}
+
+.title_page {
+    margin-bottom: 20px;
+    color: #388E3C; /* Couleur de texte personnalisée */
+}
+
+header {
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 40px;
+    background-color: white; /* Ajout d'une couleur de fond */
+    padding: 20px; /* Ajout d'un espace intérieur */
+    border-radius: 10px; /* Ajout de coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre */
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Ajout de coins arrondis aux images */
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+
+    button:hover {
+        background-color: #388E3C;
+    }
+
+.remove-plant-button {
+    background-color: #FF0000;
+    color: white;
+}
+
+    .remove-plant-button:hover {
+        background-color: #CC0000;
+    }

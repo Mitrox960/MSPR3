@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    color: #388E3C;
+}
+
+h2 {
+    color: #388E3C;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #388E3C;
+    margin-top: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+form {
+    text-align: center; /* Centrer le contenu du formulaire */
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin-top: 20px; /* Ajouter une marge au-dessus du bouton pour l'aération */
+}
+
+    button:hover {
+        background-color: #388E3C;
+        border-color: #388E3C;
+    }

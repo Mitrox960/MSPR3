@@ -1,0 +1,35 @@
+main {
+    text-align: center;
+}
+
+    main ul {
+        list-style: none;
+        border: 3px #388E3C solid;
+        border-radius: 12px;
+        margin: 4% auto;
+        padding: 20px;
+        width: auto;
+        max-width: 600px;
+    }
+
+        main ul li {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+.info {
+    color: grey;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    main ul {
+        margin: 4% 10%;
+    }
+
+    .info {
+        font-size: smaller;
+    }
+}

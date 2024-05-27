@@ -1,0 +1,44 @@
+footer {
+    background-color: #388E3C;
+}
+
+.eco-footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+    .eco-footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .eco-footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+        .eco-footer a:hover {
+            text-decoration: underline;
+        }
+
+
+@media (max-width: 768px) {
+    .eco-footer {
+        padding: 10px;
+    }
+
+        .eco-footer p {
+            font-size: 12px;
+        }
+
+
+        .eco-footer a {
+            margin: 0 5px;
+        }
+}
