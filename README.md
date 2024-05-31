@@ -17,4 +17,4 @@ Si fonctionne pas : npm install expo et refaire npx expo start
 
 Scannez le QR Code depuis votre téléphone android avec l'application "Expo GO"
 
-Note : Le téléphone doit être sur le même réseau que le serveur front et back
+Note : Le téléphone doit être sur le même réseau que le serveur front et back, et votre serveur de bdd doit être lancé (WAMP par exemple)
